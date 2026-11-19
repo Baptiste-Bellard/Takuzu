@@ -1,0 +1,49 @@
+button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 25px; 
+    transition-duration: 0.4s; 
+  }
+  
+button:hover {
+    background-color: #008CBA; 
+    color: white; 
+  }
+  
+pre {
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+}
+
+body {
+    background-color: #f2f2f2; /* Couleur de fond de la page */
+    display: flex; /* Permet de centrer les éléments horizontalement et verticalement */
+    flex-direction: column; /* Aligne les éléments verticalement */
+    justify-content: center; /* Centre les éléments verticalement */
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+}
+#text_gauche {
+    margin-right: 300px;
+  }
+  
+#text_droit {
+    margin-left: 300px;
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: middle;
+}
